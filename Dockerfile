@@ -28,7 +28,8 @@ RUN apt-get install -y \
 	python \
 	python-pip \
 	unzip \
-	wget
+	wget \
+	git
 
 # install virtualenv
 RUN pip install virtualenv
